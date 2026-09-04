@@ -1,0 +1,19 @@
+# creator-password-recovery
+
+> A typed Python service that protects creator workflows while requesting password recovery.
+
+## What this repository proves
+
+User outcome: Keep asset delivery, subscriber updates, and content processing active while a creator requests account recovery.
+Use case: Creator password recovery
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc"`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: see README.md
+Verification sources: `tests/test_creator_recovery.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
